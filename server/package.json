@@ -1,0 +1,14 @@
+{
+  "name": "stock-buyer-mongodb-server",
+  "version": "1.0.0",
+  "description": "MongoDB backend for Stock Buyer authentication and market data",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "py:legacy": "python server.py"
+  },
+  "dependencies": {
+    "lightweight-charts": "^5.3.0",
+    "mongodb": "^6.20.0"
+  }
+}
